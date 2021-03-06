@@ -9,4 +9,4 @@ echo Bye
 
 echo -e "\e[0mHello"
 
-echo -e "\e[1mBye"
+echo -e "\e[1mBye\e[0m"
