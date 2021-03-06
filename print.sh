@@ -8,3 +8,5 @@ echo -e "\e[31mHello"
 echo Bye
 
 echo -e "\e[0mHello"
+
+echo -e "\e[1m4mBye"
