@@ -23,4 +23,4 @@ ADD=$((2+3+4+5))
 CALC=$(1+5-3+6/3)
 
 echo ADD = $ADD
-echo Cal - $CALC
+echo Cal = $CALC
