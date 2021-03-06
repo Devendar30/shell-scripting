@@ -2,7 +2,7 @@
 
 Name=Devops
 
-echo NAME=$Name
+echo Name=$Name
 
 FILE1=sample
 FILE2=new
