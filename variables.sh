@@ -9,7 +9,7 @@ FILE2=new
 
 count=2
 
-echo Count of Apples = $count no
+echo Count of Apples = $countno
 
 NAME="welcome to devops"
 
