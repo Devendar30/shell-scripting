@@ -18,7 +18,7 @@ echo Name=$NAME
 DATE=$(date)
 
 echo "today date is ${DATE}".
-echo today date is ${DATE +%F}.
+echo "today date is ${DATE +%F}."
 
 ADD=$((2+3+4+5))
 CALC=$((1+5-3+7/3))
