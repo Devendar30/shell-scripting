@@ -9,4 +9,4 @@ FILE2=new
 
 count=2
 
-echo "Count of Apples = $countno"
+echo "Count of Apples = $count no"
