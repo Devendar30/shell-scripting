@@ -1,6 +1,6 @@
 #!/bin/bash
 
-NAME=Devops
+Name=Devops
 
 echo NAME=$NAME
 
