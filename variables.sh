@@ -11,6 +11,6 @@ count=2
 
 echo Count of Apples = $count no
 
-NAME=welcome to devops
+NAME="welcome to devops"
 
 echo Name=$NAME
