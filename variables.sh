@@ -15,6 +15,6 @@ NAME="welcome to devops"
 
 echo Name=$NAME
 
-DATE=(date +%F)
+DATE=$(date +%F)
 
 echo "today date is ${DATE}"
