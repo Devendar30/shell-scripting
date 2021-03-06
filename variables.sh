@@ -13,4 +13,8 @@ echo "Count of Apples = ${count}no"
 
 NAME="welcome to devops"
 
-echo Name=$NAME``
+echo Name=$NAME
+
+DATE=(date +%F)
+
+echo "today date is $DATE"
