@@ -16,7 +16,7 @@ NAME="welcome to devops"
 echo Name=$NAME
 
 DATE=$(date)
-DAY_TIME=$(date +%date)
+DAY_TIME=$(date +%F)
 
 echo "today date is ${DATE}".
 echo "today date is ${DAY_TIME}"
