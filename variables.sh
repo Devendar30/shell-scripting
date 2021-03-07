@@ -26,6 +26,5 @@ CALC=$((1+5-3+7/3))
 
 echo ADD=$ADD
 echo Cal=$CALC
-
-c= value of a = $A
+echo value of a = $A
 
