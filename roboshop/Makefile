@@ -4,5 +4,5 @@ catalogue:
 	@sh components/catalogue.sh
 
 frontend:
-	@sh components/frontend.sh
+	@sh sudo components/frontend.sh
 
