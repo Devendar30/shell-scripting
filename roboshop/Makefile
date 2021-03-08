@@ -1,7 +1,7 @@
 cart:
-	@sh components/cart.sh
+	@sh sudo components/cart.sh
 catalogue:
-	@sh components/catalogue.sh
+	@sh sudo components/catalogue.sh
 
 frontend:
 	@sh sudo components/frontend.sh
