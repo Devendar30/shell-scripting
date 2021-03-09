@@ -1,4 +1,15 @@
+#!/bin/bash
+
+COMPONENT=frontend
+
+source components/ommon.sh
+
+Print "Installing Nginx"
+
 yum install nginx -y
+
+Print "staring Nginx service"
+exit
 systemctl enable nginx
 systemctl start nginx
 

@@ -7,4 +7,8 @@ if [ "USER_ID" != 0 ]; then
   exit 1
 fi
 
+Print() {
+  echo -e "\e[1m $(date +%f) $(hostname)\e[0m \e[1;38m$(COMPONENT) :: $1"
+}
+
 
