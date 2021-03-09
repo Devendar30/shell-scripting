@@ -7,7 +7,7 @@ source components/common.sh
 Print "Installing Nginx"
 
 yum install nginx -y
-
+stat $?
 Print "staring Nginx service"
 exit
 systemctl enable nginx
