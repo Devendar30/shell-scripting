@@ -7,8 +7,8 @@ if [ "USER_ID" != 0 ]; then
   exit 1
 fi
 
-#Print() {
-#  echo -e "\e[1m $(date +%c) \e[35m$(hostname)\e[0m \e[1;36m${COMPONENT} :: $1"
-#}
+Print() {
+echo -e "\e[1m $(date +%c) \e[35m$(hostname)\e[0m \e[1;36m${COMPONENT} :: $1"
+}
 
 
