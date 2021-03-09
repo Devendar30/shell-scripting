@@ -2,7 +2,7 @@
 
 COMPONENT=frontend
 
-source components/ommon.sh
+source components/common.sh
 
 Print "Installing Nginx"
 
