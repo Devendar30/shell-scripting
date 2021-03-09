@@ -7,7 +7,8 @@ systemctl start nginx
  cd /usr/share/nginx/html
  rm -rf *
  unzip /tmp/frontend.zip
+ mv frontend-master/* .
  mv static/* .
- rm -rf static README.md
+ rm -rf frontend-master README.md
  mv localhost.conf /etc/nginx/default.d/roboshop.conf
  systemctl restart nginx
