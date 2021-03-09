@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo I am Common.
+echo I am common
