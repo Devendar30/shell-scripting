@@ -1,5 +1,5 @@
-common:
-	@sh components/common.sh
+#common:
+#	@sh components/common.sh
 cart: common
 	@sh components/cart.sh
 catalogue: common
