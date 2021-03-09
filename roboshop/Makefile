@@ -1,9 +1,9 @@
 common:
 	@sh components/common.sh
 cart: common
-	@ sh components/cart.sh
+	@sh components/cart.sh
 catalogue: common
-	@ sh components/catalogue.sh
+	@sh components/catalogue.sh
 frontend: common
-	@ sh components/frontend.sh
+	@sh components/frontend.sh
 
