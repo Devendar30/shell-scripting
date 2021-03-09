@@ -23,5 +23,6 @@ stat() {
   echo -e  "[\e[1;34mInfo\e[0m] \e[1;32mSUCCESS \e[0m"
   else
     echo -e "\n[\e[1;31mINFO\e[0m] \e[1;31mFAILURE \e[0m"
+    exit 2
     fi
 }
