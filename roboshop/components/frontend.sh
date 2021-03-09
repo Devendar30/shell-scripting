@@ -4,11 +4,11 @@ COMPONENT=frontend
 
 source components/common.sh
 
-Print "Installing Nginx"
+Print "Installing Nginx" "yum install nginx -y"
 
 yum install nginx -y
 stat $?
-Print "staring Nginx service"
+Print "staring Nginx service" "systemctl start nginx"
 exit
 systemctl enable nginx
 systemctl start nginx
