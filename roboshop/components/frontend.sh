@@ -6,7 +6,7 @@ source components/common.sh
 
 Print "Installing Nginx" "yum install nginx -y"
 
-yum install nginx -y
+yum install nginx -y &>/tmp/log # redirecting the message to log file
 stat $?
 Print "staring Nginx service" "systemctl start nginx"
 exit
