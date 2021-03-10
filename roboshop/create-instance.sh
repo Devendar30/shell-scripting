@@ -7,7 +7,7 @@ if [ -z "$component" ]; then
   exit 1
 fi
 
-  STATE=$(aws ec2 describe-instances --filters "Name=tag:Name,Values=${component}" --query 'Reservations[*].Instances[*],State.Name' --output)
+  STATE=$(aws ec2 describe-instances --filters "Name=tag:Name,Values=${component}" --query 'Reservations[*].Instances[*],State.Name' --output text)
 
   if [ $STATE != "running" ]; then
 
