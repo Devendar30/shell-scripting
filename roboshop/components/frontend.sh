@@ -9,8 +9,9 @@ Print "Installing Nginx" "yum install nginx -y"
 # redirecting the message to some log file with below command "&>/tmp/log"
 yum install nginx -y &>/tmp/log
 stat $?
+
 Print "staring Nginx service" "systemctl start nginx"
-exit
+
 systemctl enable nginx
 systemctl start nginx
 stat $?
