@@ -22,8 +22,11 @@ Print "Downloading frontend content"
 
  cd /usr/share/nginx/html
  rm -rf *
- unzip /tmp/frontend.zip &&  mv frontend-main/* . &&  mv static/* . &&  rm -rf frontend-main README.md
-
  stat $?
+print "Extract Roboshop frontend doc"
+ unzip /tmp/frontend.zip &&  mv frontend-main/* . &&  mv static/* . &&  rm -rf frontend-main README.md
+ stat $?
+
  mv localhost.conf /etc/nginx/default.d/roboshop.conf
  systemctl restart nginx
+ print "restarted nginx"
