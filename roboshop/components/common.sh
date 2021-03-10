@@ -24,5 +24,6 @@ stat() {
   else
     echo -e "\n[\e[1;31mINFO\e[0m] \e[1;31mFAILURE \e[0m"
     exit 2
+    echo -e "\n[\e[1;34mINFO\e[0m]---------------------"
     fi
 }
