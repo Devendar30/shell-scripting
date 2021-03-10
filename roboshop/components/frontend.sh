@@ -16,6 +16,8 @@ systemctl enable nginx
 systemctl start nginx
 stat $?
 
+Print "Downloading frontend content"
+
  curl -s -L -o /tmp/frontend.zip "https://github.com/roboshop-devops-project/frontend/archive/main.zip"
 
  cd /usr/share/nginx/html
