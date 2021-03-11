@@ -10,7 +10,7 @@ yum install nodejs make gcc-c++ -y
 stat $?
 
 Print "Adding Roboshop user"
-#useradd roboshop
+useradd roboshop
 stat $?
 
 Print "Download catalogue component code"
