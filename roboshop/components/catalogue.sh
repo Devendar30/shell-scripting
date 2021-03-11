@@ -29,7 +29,7 @@ stat $?
 
 Print "update systemD"
 
-sed -i -e 's/MONGO_DNSNAME/mongodb' /home/roboshop/catalogue/catalogue-main/systemd.service && mv /home/roboshop/catalogue/catalogue-main/systemd.service /etc/systemd/system/catalogue.service
+sed -i -e 's/MONGO_DNSNAME/mongodb-ss.devendar.tk/' /home/roboshop/catalogue/catalogue-main/systemd.service && mv /home/roboshop/catalogue/catalogue-main/systemd.service /etc/systemd/system/catalogue.service
 stat $?
 Print "start catalogue service" ""
  systemctl daemon-reload && systemctl restart catalogue && systemctl enable catalogue
