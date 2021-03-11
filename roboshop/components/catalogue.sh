@@ -10,7 +10,9 @@ yum install nodejs make gcc-c++ -y
 stat $?
 
 Print "Adding Roboshop user"
-useradd roboshop
+
+id roboshop || useradd roboshop
+
 stat $?
 
 Print "Download catalogue component code"
@@ -21,8 +23,10 @@ Print "extract catalogue component code" "rm -rf /home/roboshop/catalogue && cd 
 rm -rf /home/roboshop/catalogue && mkdir -p /home/roboshop/catalogue && cd /home/roboshop/catalogue && unzip /tmp/catalogue.zip
 stat $?
 
-exit
-$ npm install
+Print " install nodejs dependencis" "npm install"
+npm install
+stat $?
+
 
  #mv /home/roboshop/catalogue/systemd.service /etc/systemd/system/catalogue.service
  #systemctl daemon-reload
