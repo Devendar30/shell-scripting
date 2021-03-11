@@ -8,10 +8,6 @@ cart: common
 cart: 			## Install user Component
 	@sh components/user.sh
 
-catalogue: common
-catalogue: 		##Install user Component
-	@sh components/user.sh
-
 frontend: common
 frontend:		##Install Frontend Component
 	@sh components/frontend.sh
