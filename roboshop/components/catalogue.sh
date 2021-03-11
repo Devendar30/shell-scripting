@@ -24,7 +24,7 @@ rm -rf /home/roboshop/catalogue && mkdir -p /home/roboshop/catalogue && cd /home
 stat $?
 
 Print " install nodejs dependencis" "npm install"
-npm install
+npm install --unsafe-perm
 stat $?
 
 
